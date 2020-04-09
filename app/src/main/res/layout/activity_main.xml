@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_height="250dp"
+        android:layout_width="match_parent"
+        android:background="#cee397"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p1"
+            android:text="@string/P1"
+            android:textSize="40sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p2"
+            android:text="@string/P2"
+            android:textSize="40sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/p1"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rstbtn"
+            android:textSize="25sp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="79dp"
+            android:background="#8db1ab"
+            android:id="@+id/rst"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <Button
+            android:id="@+id/btn00"
+            style="@style/ActionButtonStyle"
+
+            />
+        <Button
+
+            android:id="@+id/btn01"
+            style="@style/ActionButtonStyle"
+
+            />
+        <Button
+
+            android:id="@+id/btn02"
+            style="@style/ActionButtonStyle"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <Button
+
+            android:id="@+id/btn10"
+            style="@style/ActionButtonStyle"
+            />
+        <Button
+
+            android:id="@+id/btn11"
+            style="@style/ActionButtonStyle"
+            />
+        <Button
+
+            android:id="@+id/btn12"
+            style="@style/ActionButtonStyle"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <Button
+            style="@style/ActionButtonStyle"
+            android:id="@+id/btn20"
+
+            />
+        <Button
+            style="@style/ActionButtonStyle"
+            android:id="@+id/btn21"
+
+            />
+        <Button
+            style="@style/ActionButtonStyle"
+            android:id="@+id/btn22"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

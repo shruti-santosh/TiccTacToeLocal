@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TicTacToeAttempt1</string>
+    <string name="P1">Player 1:</string>
+    <string name="P2">Player 2:</string>
+    <string name="rstbtn">RESET</string>
+</resources>
